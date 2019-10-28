@@ -10,6 +10,6 @@ services:
     stdin_open: true
     tty: true
     volumes:
-      - .:/home/dev/docker-containers/proj_1/django-project
+      - .:/home/dev/github_deploy/django-docker-project/django-project
     ports:
       - "8000:8000"
